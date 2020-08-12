@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>  
+<!DOCTYPE books [
+<!ELEMENT books (book)*>
+<!ELEMENT book (Title, Author, Genre, Copyright, Edition, Isbn, Publisher, Price)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Copyright (#PCDATA)>
+<!ELEMENT Edition (#PCDATA)>
+<!ELEMENT Isbn (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>
+<!ELEMENT Price (#PCDATA)> 
+]>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>  
+<!DOCTYPE books SYSTEM "books.dtd">
+<books> 
+	<book>
+		<title> copywrite successfull writing</title>
+		<author> MARK SHAW </author>
+		<genre> Education </genre>
+		<copyright> 2002 </copyright>
+		<edition> fourth </edition>
+		<isbn> 1780670001</isbn>
+		<publisher> laurence king publisher </publisher>
+		<price> 800 </price>
+ 	</book>
+ 	<book>
+		<title> The Art of design </title>
+		<author> IAN DODSON </author>
+		<genre> Educqtuon</genre>
+		<copyright> 1951 </copyright>
+		<edition> first </edition>
+		<isbn> 8126564407 </isbn>
+		<publisher> Little, Brown and Company </publisher>
+		<price> 540 </price>
+	</book>
+	<book>
+		<title> The Girl Without a Name </title>
+		<author> SANDRA BLOCK </author>
+		<genre> Mystery </genre>
+		<copyright> 2015 </copyright>
+		<edition> first </edition>
+		<isbn> 9781409178637 </isbn>
+		<publisher> Macmillan Publishers </publisher>
+		<price> 399 </price>
+ 	</book>
+ 	<book>
+		<title> The Girl Without a Name </title>
+		<author> SHARON BOLTON </author>
+		<genre> Novel </genre>
+		<copyright> 2016 </copyright>
+		<edition> first </edition>
+		<isbn> 9780351941262 </isbn>
+		<publisher> Dell Publishing </publisher>
+		<price> 196 </price>
+ 	</book>
+ 	<book>
+		<title> Marketing 4.0 </title>
+		<author> PHILIP KOTLER </author>
+		<genre> Education </genre>
+		<copyright> 2017 </copyright>
+		<edition> first </edition>
+		<isbn> 9788126566938 </isbn>
+		<publisher> Wiley </publisher>
+		<price> 1000</price>
+ 	</book>
+</books>
